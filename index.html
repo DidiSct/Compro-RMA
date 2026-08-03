@@ -24,8 +24,8 @@
                         }
                     },
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif']
                     }
                 }
             }
@@ -39,32 +39,6 @@
 
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- Custom CSS Styles -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            red: '#D32F2F',
-                            darkRed: '#B71C1C',
-                            lightRed: '#FFEBEE',
-                            blue: '#1E3A8A',
-                            darkBlue: '#0F172A',
-                            lightBlue: '#EFF6FF',
-                            accent: '#2563EB',
-                            slate: '#64748B'
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                        heading: ['Outfit', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
 
     <style>
         body {
@@ -118,22 +92,27 @@
                 
                 <!-- BRAND LOGO -->
                 <a href="#" class="flex items-center space-x-3 group shrink-0">
-    <!-- Gambar Logo Fisik -->
-    <img src="images/logo-rvtech.png" 
-         alt="Logo PT RVTECH MITRA ABADI" 
-         class="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
-    
-    <div>
-        <div class="font-extrabold text-base sm:text-lg tracking-tight text-brand-darkBlue leading-none">
-            PT. RVTECH MITRA ABADI
-        </div>
-        <span class="text-[9px] sm:text-[10px] font-semibold tracking-widest text-brand-red uppercase block mt-1">
-            Equiparts Solution Partner
-        </span>
-    </div>
-</a>
+                    <img src="images/logo-rvtech.png" 
+                         onerror="this.style.display='none'; document.getElementById('fallback-logo-text').classList.remove('hidden');" 
+                         alt="Logo PT RVTECH MITRA ABADI" 
+                         class="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                    
+                    <!-- Fallback Badge jika logo-rvtech.png belum terupload/salah nama -->
+                    <div id="fallback-logo-text" class="hidden relative w-11 h-11 sm:w-12 sm:h-12 flex items-center justify-center bg-white rounded-xl shadow-md p-1 border border-gray-100">
+                        <span class="font-extrabold text-lg sm:text-xl tracking-tighter text-brand-blue">R<span class="text-brand-red">V</span>M</span>
+                    </div>
 
-                <!-- DESKTOP MENU (Optimized Spacing & Typography) -->
+                    <div>
+                        <div class="font-extrabold text-base sm:text-lg tracking-tight text-brand-darkBlue leading-none">
+                            PT. RVTECH MITRA ABADI
+                        </div>
+                        <span class="text-[9px] sm:text-[10px] font-semibold tracking-widest text-brand-red uppercase block mt-1">
+                            Equiparts Solution Partner
+                        </span>
+                    </div>
+                </a>
+
+                <!-- DESKTOP MENU -->
                 <div class="hidden xl:flex items-center space-x-6 2xl:space-x-8 font-semibold text-xs 2xl:text-sm text-gray-700 ml-auto">
                     <a href="#beranda" class="hover:text-brand-red transition duration-150 py-1">Beranda</a>
                     <a href="#tentang" class="hover:text-brand-red transition duration-150 py-1">Tentang Kami</a>
@@ -144,7 +123,7 @@
                     <a href="#kontak" class="hover:text-brand-red transition duration-150 py-1">Kontak</a>
                 </div>
 
-                <!-- DESKTOP MENU FOR MID-DESKTOP (1024px - 1280px) -->
+                <!-- DESKTOP MENU FOR MID-DESKTOP -->
                 <div class="hidden lg:flex xl:hidden items-center space-x-4 font-semibold text-xs text-gray-700 ml-auto">
                     <a href="#beranda" class="hover:text-brand-red transition duration-150">Beranda</a>
                     <a href="#tentang" class="hover:text-brand-red transition duration-150">Tentang</a>
@@ -155,7 +134,7 @@
                     <a href="#kontak" class="hover:text-brand-red transition duration-150">Kontak</a>
                 </div>
 
-                <!-- CTA BUTTON (Separated with Left Divider on Large Screens) -->
+                <!-- CTA BUTTON -->
                 <div class="hidden sm:flex items-center pl-3 lg:pl-5 border-l border-gray-200 shrink-0">
                     <button onclick="openRfqModal()" class="bg-gradient-to-r from-brand-red to-brand-darkRed text-white px-4 lg:px-5 py-2.5 rounded-xl font-bold text-xs lg:text-sm shadow-md hover:shadow-lg hover:brightness-110 active:scale-95 transition-all duration-200 flex items-center space-x-2">
                         <i class="fa-solid fa-file-invoice"></i>
@@ -192,7 +171,6 @@
 
     <!-- HERO SECTION -->
     <section id="beranda" class="relative gradient-hero text-white overflow-hidden py-20 lg:py-28">
-        <!-- Abstract Background Lines -->
         <div class="absolute inset-0 opacity-10 bg-grid-pattern pointer-events-none"></div>
         <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-red rounded-full blur-3xl opacity-30 pointer-events-none"></div>
         <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-brand-accent rounded-full blur-3xl opacity-20 pointer-events-none"></div>
@@ -262,8 +240,10 @@
                 <div class="lg:col-span-5">
                     <div class="relative mx-auto max-w-md lg:max-w-none">
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-slate-900/80 group">
-                            <!-- GAMBAR HERO (Ganti atribut src dengan URL/Path gambar baru Anda) -->
-                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80" alt="Forklift Heavy Equipment Spare Parts" class="w-full h-96 object-cover transform group-hover:scale-105 transition duration-700 opacity-90">
+                            <img src="images/hero-equipment.jpg" 
+                                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80';" 
+                                 alt="Forklift Heavy Equipment Spare Parts" 
+                                 class="w-full h-96 object-cover transform group-hover:scale-105 transition duration-700 opacity-90">
                             
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
                             
@@ -321,7 +301,6 @@
 
                 <div class="lg:col-span-6 relative">
                     <div class="grid grid-cols-2 gap-4">
-                        <!-- GAMBAR TENTANG KAMI 1 & 2 (Ganti atribut src dengan gambar gudang/operasional Anda) -->
                         <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Material Handling Warehouse" class="rounded-2xl shadow-lg h-64 w-full object-cover">
                         <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Heavy Machinery Maintenance" class="rounded-2xl shadow-lg h-64 w-full object-cover mt-8">
                     </div>
@@ -461,8 +440,10 @@
                 <!-- CARD 1: TIRE -->
                 <div class="product-item tire bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <!-- GAMBAR BAN / TIRE (Ganti src di bawah) -->
-                        <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=800&q=80" alt="Industrial Forklift Tires Trelleborg" class="w-full h-full object-cover">
+                        <img src="images/ban-trelleborg.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=800&q=80';" 
+                             alt="Industrial Forklift Tires Trelleborg" 
+                             class="w-full h-full object-cover">
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Merek Utama: Trelleborg</span>
                     </div>
                     <div class="p-6">
@@ -485,8 +466,10 @@
                 <!-- CARD 2: BATTERY FORKLIFT -->
                 <div class="product-item battery bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <!-- GAMBAR BATERAI FORKLIFT (Ganti src di bawah) -->
-                        <img src="images/batterai.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover">
+                        <img src="images/batterai.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80';" 
+                             alt="Forklift Battery Traction Cell" 
+                             class="w-full h-full object-cover">
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Traction Battery</span>
                     </div>
                     <div class="p-6">
@@ -509,9 +492,8 @@
                 <!-- CARD 3: FILTER -->
                 <div class="product-item filter bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <!-- GAMBAR FILTER ALAT BERAT -->
-                        <img src="images/filter.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover"> 
-                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=Filter+%26+Saringan+Industri';" 
+                        <img src="images/filter.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1618042164219-62c820f10723?auto=format&fit=crop&w=800&q=80';" 
                              alt="Heavy Equipment Filters Oil Air Hydraulic" 
                              class="w-full h-full object-cover">
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Filtrasi Lengkap</span>
@@ -536,7 +518,10 @@
                 <!-- CARD 4: FORKLIFT SPAREPARTS -->
                 <div class="product-item forklift bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <img src="images/spare part forklipt.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover">
+                        <img src="images/spare%20part%20forklipt.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=80';" 
+                             alt="Forklift Mechanical Parts" 
+                             class="w-full h-full object-cover">
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Sistem Mekanikal</span>
                     </div>
                     <div class="p-6">
@@ -563,8 +548,8 @@
                 <!-- CARD 5: EXCAVATOR & LOADER -->
                 <div class="product-item heavy bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <img src="images/loader.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover"> 
-                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=Sparepart+Excavator+%26+Loader';" 
+                        <img src="images/loader.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80';" 
                              alt="Excavator Hydraulics and Heavy Machinery" 
                              class="w-full h-full object-cover">
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Excavator & Loader</span>
@@ -589,7 +574,10 @@
                 <!-- CARD 6: TRUCK & GENSET -->
                 <div class="product-item truck bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <img src="images/dumptruck.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover"> 
+                        <img src="images/dumptruck.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80';" 
+                             alt="Commercial Dump Truck & Generator Engine Parts" 
+                             class="w-full h-full object-cover"> 
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Truck & Genset</span>
                     </div>
                     <div class="p-6">
@@ -612,7 +600,10 @@
                 <!-- CARD 7: TURBOCHARGER & CHARGERS -->
                 <div class="product-item turbo bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
                     <div class="h-56 overflow-hidden relative">
-                        <img src="images/turbo.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover">
+                        <img src="images/turbo.jpg" 
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80';" 
+                             alt="Turbocharger Heavy Engine" 
+                             class="w-full h-full object-cover">
                         <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Turbo & Charger</span>
                     </div>
                     <div class="p-6">
@@ -1064,7 +1055,6 @@
         function copyBankAcc() {
             const accNum = "1560009738198";
             
-            // Clipboard fallback
             const tempInput = document.createElement("input");
             tempInput.value = accNum;
             document.body.appendChild(tempInput);
@@ -1087,3 +1077,13 @@
     </script>
 </body>
 </html>
+```
+
+### Rekomendasi Nama File di GitHub:
+Agar gambar lokal Anda terbaca 100% tanpa kendala di GitHub Pages, disarankan untuk menyamakan nama file di folder `images/` menjadi **huruf kecil tanpa spasi**:
+- `images/logo-rvtech.png`
+- `images/baterai.jpg` *(Ganti nama file dari `batterai.jpg` agar baku)*
+- `images/filter.jpg`
+- `images/sparepart-forklift.jpg` *(Saran ganti nama dari `spare part forklipt.jpg`)*
+- `images/loader.jpg`
+- `images/dumptruck.jpg`
