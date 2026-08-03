@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. RVTECH MITRA ABADI - Reliable Partner on Your Equiparts Solution</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#D32F2F',
+                            darkRed: '#B71C1C',
+                            lightRed: '#FFEBEE',
+                            blue: '#1E3A8A',
+                            darkBlue: '#0F172A',
+                            lightBlue: '#EFF6FF',
+                            accent: '#2563EB',
+                            slate: '#64748B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS Styles -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#D32F2F',
+                            darkRed: '#B71C1C',
+                            lightRed: '#FFEBEE',
+                            blue: '#1E3A8A',
+                            darkBlue: '#0F172A',
+                            lightBlue: '#EFF6FF',
+                            accent: '#2563EB',
+                            slate: '#64748B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #1F2937;
+            background-color: #F8FAFC;
+            letter-spacing: -0.01em;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Outfit', sans-serif;
+            letter-spacing: -0.02em;
+        }
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(30, 58, 138, 0.12) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .glass-header {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(16px);
+        }
+        .gradient-hero {
+            background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 60%, #991B1B 100%);
+        }
+        .gradient-card {
+            background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-red selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT / QUICK INFO BAR -->
+    <div class="bg-brand-darkBlue text-gray-300 text-xs py-2 px-4 border-b border-gray-800 hidden md:block">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-location-dot text-brand-red mr-2"></i>Bekasi, Jawa Barat, Indonesia</span>
+                <span><i class="fa-solid fa-clock text-brand-red mr-2"></i>Senin - Sabtu: 08.00 - 17.00 WIB</span>
+                <span><i class="fa-solid fa-shield-halved text-brand-red mr-2"></i>Suku Cadang Genuine & Garansi Standard Pabrik</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="tel:02182746350" class="hover:text-white transition"><i class="fa-solid fa-phone text-brand-red mr-1"></i> (021) 82746350</a>
+                <span>|</span>
+                <a href="mailto:rvtecma@gmail.com" class="hover:text-white transition"><i class="fa-solid fa-envelope text-brand-red mr-1"></i> rvtecma@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <nav class="sticky top-0 z-40 glass-header border-b border-gray-200/80 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center gap-4">
+                
+                <!-- BRAND LOGO -->
+                <a href="#" class="flex items-center space-x-3 group shrink-0">
+    <!-- Gambar Logo Fisik -->
+    <img src="images/logo-rvtech.png" 
+         alt="Logo PT RVTECH MITRA ABADI" 
+         class="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+    
+    <div>
+        <div class="font-extrabold text-base sm:text-lg tracking-tight text-brand-darkBlue leading-none">
+            PT. RVTECH MITRA ABADI
+        </div>
+        <span class="text-[9px] sm:text-[10px] font-semibold tracking-widest text-brand-red uppercase block mt-1">
+            Equiparts Solution Partner
+        </span>
+    </div>
+</a>
+
+                <!-- DESKTOP MENU (Optimized Spacing & Typography) -->
+                <div class="hidden xl:flex items-center space-x-6 2xl:space-x-8 font-semibold text-xs 2xl:text-sm text-gray-700 ml-auto">
+                    <a href="#beranda" class="hover:text-brand-red transition duration-150 py-1">Beranda</a>
+                    <a href="#tentang" class="hover:text-brand-red transition duration-150 py-1">Tentang Kami</a>
+                    <a href="#visi-misi" class="hover:text-brand-red transition duration-150 py-1">Visi & Misi</a>
+                    <a href="#produk" class="hover:text-brand-red transition duration-150 py-1">Produk & Parts</a>
+                    <a href="#merek" class="hover:text-brand-red transition duration-150 py-1">Merek Dukungan</a>
+                    <a href="#data-perusahaan" class="hover:text-brand-red transition duration-150 py-1">Data Legalitas</a>
+                    <a href="#kontak" class="hover:text-brand-red transition duration-150 py-1">Kontak</a>
+                </div>
+
+                <!-- DESKTOP MENU FOR MID-DESKTOP (1024px - 1280px) -->
+                <div class="hidden lg:flex xl:hidden items-center space-x-4 font-semibold text-xs text-gray-700 ml-auto">
+                    <a href="#beranda" class="hover:text-brand-red transition duration-150">Beranda</a>
+                    <a href="#tentang" class="hover:text-brand-red transition duration-150">Tentang</a>
+                    <a href="#visi-misi" class="hover:text-brand-red transition duration-150">Visi Misi</a>
+                    <a href="#produk" class="hover:text-brand-red transition duration-150">Produk</a>
+                    <a href="#merek" class="hover:text-brand-red transition duration-150">Merek</a>
+                    <a href="#data-perusahaan" class="hover:text-brand-red transition duration-150">Legalitas</a>
+                    <a href="#kontak" class="hover:text-brand-red transition duration-150">Kontak</a>
+                </div>
+
+                <!-- CTA BUTTON (Separated with Left Divider on Large Screens) -->
+                <div class="hidden sm:flex items-center pl-3 lg:pl-5 border-l border-gray-200 shrink-0">
+                    <button onclick="openRfqModal()" class="bg-gradient-to-r from-brand-red to-brand-darkRed text-white px-4 lg:px-5 py-2.5 rounded-xl font-bold text-xs lg:text-sm shadow-md hover:shadow-lg hover:brightness-110 active:scale-95 transition-all duration-200 flex items-center space-x-2">
+                        <i class="fa-solid fa-file-invoice"></i>
+                        <span>Minta Penawaran</span>
+                    </button>
+                </div>
+
+                <!-- MOBILE MENU BUTTON -->
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="p-2 rounded-md text-gray-700 hover:text-brand-red focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOBILE DROPDOWN -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-6 space-y-3 shadow-xl">
+            <a href="#beranda" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Beranda</a>
+            <a href="#tentang" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Tentang Kami</a>
+            <a href="#visi-misi" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Visi & Misi</a>
+            <a href="#produk" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Produk & Suku Cadang</a>
+            <a href="#merek" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Merek Dukungan</a>
+            <a href="#data-perusahaan" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Data Perusahaan</a>
+            <a href="#kontak" class="block py-2 text-gray-700 font-medium hover:text-brand-red">Kontak Kami</a>
+            <div class="pt-2">
+                <button onclick="openRfqModal()" class="w-full bg-brand-red text-white py-3 rounded-lg font-semibold text-sm shadow flex justify-center items-center space-x-2">
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <span>Minta Penawaran (RFQ)</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="relative gradient-hero text-white overflow-hidden py-20 lg:py-28">
+        <!-- Abstract Background Lines -->
+        <div class="absolute inset-0 opacity-10 bg-grid-pattern pointer-events-none"></div>
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-red rounded-full blur-3xl opacity-30 pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-brand-accent rounded-full blur-3xl opacity-20 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- HERO TEXT CONTENT -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs sm:text-sm text-blue-200">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span>Supplier Suku Cadang Alat Berat & Material Handling Terpercaya</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        RELIABLE PARTNER ON YOUR <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-amber-300">EQUIPARTS SOLUTION</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-gray-300 max-w-2xl font-light leading-relaxed">
+                        Penyedia suku cadang genuine terlengkap untuk Forklift, Excavator, Loader, Genset, Dump Truck, dan peralatan material handling. Solusi tepat untuk menjaga kelancaran produktivitas industri Anda.
+                    </p>
+
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#produk" class="w-full sm:w-auto bg-brand-red hover:bg-brand-darkRed text-white px-8 py-3.5 rounded-xl font-bold text-sm shadow-xl hover:shadow-2xl transition duration-200 flex items-center justify-center space-x-2">
+                            <span>Jelajahi Produk Kami</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <button onclick="openRfqModal()" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 border border-white/30 text-white px-8 py-3.5 rounded-xl font-semibold text-sm backdrop-blur-md transition duration-200 flex items-center justify-center space-x-2">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
+                            <span>Hubungi Sales (Respon Cepat)</span>
+                        </button>
+                    </div>
+
+                    <!-- KEY ADVANTAGES BADGES -->
+                    <div class="pt-8 grid grid-cols-3 gap-4 border-t border-white/10 text-left">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-brand-red text-lg">
+                                <i class="fa-solid fa-box-open"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm text-white">Multi-Brand</div>
+                                <div class="text-xs text-gray-400">Komatsu, Toyota, Hyster, dll</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-emerald-400 text-lg">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm text-white">Pengiriman Cepat</div>
+                                <div class="text-xs text-gray-400">Meminimalkan Downtime</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-amber-400 text-lg">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm text-white">Kualitas Genuine</div>
+                                <div class="text-xs text-gray-400">Standar Pabrik</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HERO IMAGE CAROUSEL / CARD DISPLAY -->
+                <div class="lg:col-span-5">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-slate-900/80 group">
+                            <!-- GAMBAR HERO (Ganti atribut src dengan URL/Path gambar baru Anda) -->
+                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80" alt="Forklift Heavy Equipment Spare Parts" class="w-full h-96 object-cover transform group-hover:scale-105 transition duration-700 opacity-90">
+                            
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+                            
+                            <!-- Floating Info Badge -->
+                            <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-white">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <p class="text-xs text-brand-red font-bold uppercase tracking-wider">Layanan Utama</p>
+                                        <h3 class="text-base font-bold">Sparepart Forklift & Alat Berat</h3>
+                                    </div>
+                                    <span class="px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-semibold">Ready Stock</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="tentang" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-block px-3 py-1 rounded-md bg-brand-lightRed text-brand-red font-bold text-xs tracking-wider uppercase">
+                        Pendahuluan & Latar Belakang
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+                        Solusi Terpercaya Mencegah Hambatan Produktivitas Perusahaan Anda
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        Berawal dari permasalahan yang sering terjadi dalam industri terkait pengadaan suku cadang dan alat pendukung pada alat berat seperti **Forklift, Excavator, Loader, Genset, Truck**, dan peralatan material handling lainnya—yang berpotensi menghentikan operasional dan menurunkan kinerja perusahaan.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        **PT. RVTECH MITRA ABADI** hadir secara profesional untuk membantu menyelesaikan kendala tersebut dengan menyediakan pasokan **Tire, Filter, Oli, Baterai, dan Suku Cadang genuine** berkualitas tinggi.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        Didukung oleh sistem pengadaan suku cadang genuine terintegrasi dari berbagai merek terkemuka serta estimasi pengiriman yang cepat, kami berkomitmen memberikan pelayanan maksimal demi kepuasan pelanggan dan keberlanjutan kerja perusahaan Anda.
+                    </p>
+
+                    <div class="pt-2 grid grid-cols-2 gap-4">
+                        <div class="p-4 rounded-xl bg-gray-50 border border-gray-100">
+                            <div class="text-2xl font-bold text-brand-blue mb-1"><i class="fa-solid fa-gears text-brand-red mr-2"></i>Garansi Genuine</div>
+                            <div class="text-xs text-gray-500">Suku cadang terjamin sesuai dengan standar spesifikasi pabrikan asli.</div>
+                        </div>
+                        <div class="p-4 rounded-xl bg-gray-50 border border-gray-100">
+                            <div class="text-2xl font-bold text-brand-blue mb-1"><i class="fa-solid fa-headset text-brand-red mr-2"></i>Dukungan Cepat</div>
+                            <div class="text-xs text-gray-500">Tim teknis dan sales siap membantu identifikasi nomor part dengan akurat.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 relative">
+                    <div class="grid grid-cols-2 gap-4">
+                        <!-- GAMBAR TENTANG KAMI 1 & 2 (Ganti atribut src dengan gambar gudang/operasional Anda) -->
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Material Handling Warehouse" class="rounded-2xl shadow-lg h-64 w-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Heavy Machinery Maintenance" class="rounded-2xl shadow-lg h-64 w-full object-cover mt-8">
+                    </div>
+                    <!-- Overlay Stats Box -->
+                    <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-brand-darkBlue text-white p-6 rounded-2xl shadow-xl w-11/12 border border-gray-800 text-center flex justify-around">
+                        <div>
+                            <div class="text-2xl font-black text-brand-red">100%</div>
+                            <div class="text-xs text-gray-300">Genuine Guarantee</div>
+                        </div>
+                        <div class="border-r border-gray-700"></div>
+                        <div>
+                            <div class="text-2xl font-black text-blue-400">Multi</div>
+                            <div class="text-xs text-gray-300">Brand Compatibility</div>
+                        </div>
+                        <div class="border-r border-gray-700"></div>
+                        <div>
+                            <div class="text-2xl font-black text-emerald-400">Fast</div>
+                            <div class="text-xs text-gray-300">Delivery Service</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- VISION & MISSION SECTION -->
+    <section id="visi-misi" class="py-20 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 rounded-md bg-brand-lightBlue text-brand-blue font-bold text-xs tracking-wider uppercase">
+                    Komitmen Layanan
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                    Visi & Misi PT. RVTECH MITRA ABADI
+                </h2>
+                <p class="text-gray-600 mt-3 text-base">
+                    Prinsip kerja yang berlandaskan integritas, profesionalisme, dan kualitas tanpa kompromi demi hubungan bisnis jangka panjang.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- PILLAR 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-brand-lightRed text-brand-red flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-handshake font-bold"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">1. Kepercayaan (Trust)</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Sebuah hubungan bisnis dapat berlangsung lama karena kepercayaan dari dua belah pihak. Sebagai seller, kami akan memenuhi semua kewajiban kami dengan sebaik-baiknya tanpa ada maksud merugikan pihak buyer, karena kami percaya bahwa hubungan baik adalah kunci dari sebuah bisnis yang sukses.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 text-xs font-semibold text-brand-red flex items-center space-x-1">
+                        <span>Kemitraan Jangka Panjang</span>
+                        <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </div>
+                </div>
+
+                <!-- PILLAR 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-brand-lightBlue text-brand-blue flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-face-smile"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">2. Pelayanan yang Ramah</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Dalam menanggapi respon dari calon buyer dan client-client kami, sikap yang sopan, cepat, dan ramah adalah suatu kewajiban bagi seluruh tim PT. RVTECH MITRA ABADI. Kepuasan serta kenyamanan transaksi Anda merupakan kebanggaan utama bagi kami.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 text-xs font-semibold text-brand-blue flex items-center space-x-1">
+                        <span>Respon Cepat & Professional</span>
+                        <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </div>
+                </div>
+
+                <!-- PILLAR 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">3. Kualitas Standar Pabrik</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Selain memberikan harga yang kompetitif, kami tidak akan mengambil resiko dengan memberikan spare part yang tidak sesuai dengan standar pabrik hanya demi mengejar keuntungan semata. Kualitas terjamin demi keamanan operasional alat berat Anda.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 text-xs font-semibold text-emerald-600 flex items-center space-x-1">
+                        <span>100% Sesuai OEM Standard</span>
+                        <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS & SPARE PARTS CATALOG SECTION -->
+    <section id="produk" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="px-3 py-1 rounded-md bg-brand-lightRed text-brand-red font-bold text-xs tracking-wider uppercase">
+                        Katalog Produk Lengkap
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                        Produk & Suku Cadang (Product Supply)
+                    </h2>
+                    <p class="text-gray-600 mt-2 text-sm sm:text-base max-w-xl">
+                        Pilih kategori produk di bawah ini untuk melihat daftar item dan suku cadang yang kami sediakan untuk armada dan peralatan Anda.
+                    </p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <button onclick="openRfqModal()" class="inline-flex items-center space-x-2 text-sm font-bold text-brand-red hover:text-brand-darkRed underline">
+                        <span>Butuh Katalog Versi PDF? Hubungi Kami</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- PRODUCT FILTER TABS -->
+            <div class="flex space-x-2 overflow-x-auto pb-4 mb-8 no-scrollbar border-b border-gray-200" id="product-tabs">
+                <button onclick="filterProduct('all')" class="tab-btn active px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-brand-red text-white shadow-sm transition">Semua Produk</button>
+                <button onclick="filterProduct('tire')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Tire (Ban Industri)</button>
+                <button onclick="filterProduct('battery')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Baterai & Charger</button>
+                <button onclick="filterProduct('filter')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Filter & Element</button>
+                <button onclick="filterProduct('forklift')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Sparepart Forklift</button>
+                <button onclick="filterProduct('heavy')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Excavator & Loader</button>
+                <button onclick="filterProduct('truck')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Dump Truck & Genset</button>
+                <button onclick="filterProduct('turbo')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200 transition">Turbocharger & Charger</button>
+            </div>
+
+            <!-- PRODUCT GRID DISPLAY -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="product-grid">
+                
+                <!-- CARD 1: TIRE -->
+                <div class="product-item tire bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <!-- GAMBAR BAN / TIRE (Ganti src di bawah) -->
+                        <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=800&q=80" alt="Industrial Forklift Tires Trelleborg" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Merek Utama: Trelleborg</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Industrial Tire (Ban Industri)</h3>
+                        <p class="text-gray-600 text-sm mb-4">Solusi ban industri tahan lama untuk forklift dan alat berat lainnya.</p>
+                        
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Pneumatic Tyre (Ban Angin)</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Solid Tyre (Marking & Non-Marking White)</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Press On Tyre</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Industrial Wheels & Relining Tire Service</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Ban Forklift / Industrial Tire')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Tanyakan Ukuran & Harga
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARD 2: BATTERY FORKLIFT -->
+                <div class="product-item battery bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <!-- GAMBAR BATERAI FORKLIFT (Ganti src di bawah) -->
+                        <img src="images/batterai.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Traction Battery</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Battery Forklift & Electric Vehicle</h3>
+                        <p class="text-gray-600 text-sm mb-4">Baterai traksi tahan lama untuk armada elektrik operasional gudang.</p>
+                        
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Electric Forklifts & Reach Trucks</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Pallet Trucks & Electric Vehicles</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> UPS, Computer, Medical & Fire Lighting</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Charger, Repair & Battery Service</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Baterai Traksi Forklift Elektrik')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Tanyakan Spesifikasi Volt/Ah
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARD 3: FILTER -->
+                <div class="product-item filter bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <!-- GAMBAR FILTER ALAT BERAT -->
+                        <img src="images/filter.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover"> 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=Filter+%26+Saringan+Industri';" 
+                             alt="Heavy Equipment Filters Oil Air Hydraulic" 
+                             class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Filtrasi Lengkap</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Filter & Saringan Industri</h3>
+                        <p class="text-gray-600 text-sm mb-4">Filter oli, udara, dan hidrolik untuk menjaga performa mesin tetap prima.</p>
+                        
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Air Filter / Saringan Udara (Inner & Outer)</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Oil Filter & Fuel Filter (Bahan Bakar)</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Hydraulic Return & Suction Filter</div>
+                            <div class="flex items-center text-xs text-gray-700 font-medium"><i class="fa-solid fa-circle-check text-brand-red mr-2"></i> Element Filter Khusus Industri</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Filter Oli / Udara / Hidrolik')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Cari Nomor Part Filter
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARD 4: FORKLIFT SPAREPARTS -->
+                <div class="product-item forklift bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="images/spare part forklipt.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Sistem Mekanikal</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Spare Part Forklift Complete</h3>
+                        <p class="text-gray-600 text-sm mb-4">Komponen mesin, hidrolik, dan pengereman forklift semua tipe.</p>
+                        
+                        <div class="grid grid-cols-2 gap-x-2 gap-y-1.5 mb-6 text-xs text-gray-700 font-medium">
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Mast System</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Torque Converter</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Hydraulic System</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Brake System</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Rear Axle System</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Cooling System</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Engine Parts</div>
+                            <div><i class="fa-solid fa-gear text-brand-red mr-1"></i> Aisin Products</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Sparepart Forklift Kompleks')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Minta Penawaran Part
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARD 5: EXCAVATOR & LOADER -->
+                <div class="product-item heavy bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="images/loader.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover"> 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=Sparepart+Excavator+%26+Loader';" 
+                             alt="Excavator Hydraulics and Heavy Machinery" 
+                             class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Excavator & Loader</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Spare Part Excavator & Loader</h3>
+                        <p class="text-gray-600 text-sm mb-4">Suku cadang pengerukan dan hidrolik beban berat untuk ekskavator.</p>
+                        
+                        <div class="space-y-2 mb-6 text-xs text-gray-700 font-medium">
+                            <div><i class="fa-solid fa-wrench text-brand-red mr-2"></i> Bucket Cylinder, Arm Cylinder & Boom Cylinders</div>
+                            <div><i class="fa-solid fa-wrench text-brand-red mr-2"></i> Main Hydraulic Pumps, Swing & Travel Motors</div>
+                            <div><i class="fa-solid fa-wrench text-brand-red mr-2"></i> Dipper Arm, Lift Arm & Cutting Edge Loader</div>
+                            <div><i class="fa-solid fa-wrench text-brand-red mr-2"></i> Track Link, Pins, Rubber Track & Undercarriage</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Sparepart Excavator / Wheel Loader')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Hubungi Tim Sparepart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARD 6: TRUCK & GENSET -->
+                <div class="product-item truck bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="images/dumptruck.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover"> 
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Truck & Genset</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Spare Part Dump Truck & Genset</h3>
+                        <p class="text-gray-600 text-sm mb-4">Dukungan suku cadang armada truk dump dan generator set daya tinggi.</p>
+                        
+                        <div class="space-y-2 mb-6 text-xs text-gray-700 font-medium">
+                            <div><i class="fa-solid fa-truck-monster text-brand-red mr-2"></i> Engine Overhaul Gaskets, Pistons, Cylinders</div>
+                            <div><i class="fa-solid fa-truck-monster text-brand-red mr-2"></i> Suspension, Springs, Shock Absorbers & Axles</div>
+                            <div><i class="fa-solid fa-truck-monster text-brand-red mr-2"></i> Rubber Track & Track Link Systems</div>
+                            <div><i class="fa-solid fa-truck-monster text-brand-red mr-2"></i> Genset Engine Components & Alternator Parts</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Sparepart Dump Truck / Genset')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Cek Ketersediaan Stok
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARD 7: TURBOCHARGER & CHARGERS -->
+                <div class="product-item turbo bg-slate-50 rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="images/turbo.jpg" alt="Forklift Battery Traction Cell" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-darkBlue text-white text-xs px-3 py-1 rounded-full font-bold">Turbo & Charger</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Turbocharger & Charger Connector</h3>
+                        <p class="text-gray-600 text-sm mb-4">Komponen pernapasan mesin dan pengisian daya baterai industri.</p>
+                        
+                        <div class="space-y-2 mb-6 text-xs text-gray-700 font-medium">
+                            <div><i class="fa-solid fa-bolt text-brand-red mr-2"></i> Turbocharger Schwitzer, Garrett & Holset OEM</div>
+                            <div><i class="fa-solid fa-bolt text-brand-red mr-2"></i> Energic Plus Industrial Battery Chargers</div>
+                            <div><i class="fa-solid fa-bolt text-brand-red mr-2"></i> Heavy Duty Battery Plugs & REMA/Anderson Connectors</div>
+                            <div><i class="fa-solid fa-bolt text-brand-red mr-2"></i> Power Cable Accessories & Sockets</div>
+                        </div>
+
+                        <button onclick="inquireProduct('Turbocharger / Charger Connector')" class="w-full bg-white border border-brand-red text-brand-red hover:bg-brand-red hover:text-white py-2.5 rounded-xl font-bold text-sm transition">
+                            Minta Spesifikasi Teknis
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SUPPORTED BRANDS SECTION -->
+    <section id="merek" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="px-3 py-1 rounded-md bg-white/10 text-brand-red font-bold text-xs tracking-wider uppercase">
+                    Kemitraan & Lisensi
+                </span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold mt-2">Dukungan Merek Terkemuka</h2>
+                <p class="text-gray-400 text-sm mt-2">
+                    Kami menyediakan suku cadang genuine dan standar kompatibilitas pabrik untuk berbagai brand terkemuka dunia.
+                </p>
+            </div>
+
+            <!-- BRAND LOGOS BADGES GRID -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-white tracking-widest uppercase">TOYOTA</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Forklift & Parts</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-amber-400 tracking-widest uppercase">KOMATSU</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Excavator & Forklift</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-yellow-500 tracking-widest uppercase">CAT</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Caterpillar Parts</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-yellow-400 tracking-widest uppercase">HYSTER</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Forklift Trucks</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-red-500 tracking-widest uppercase">TCM</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Lift Trucks</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-emerald-400 tracking-widest uppercase">YALE</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Materials Handling</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-orange-400 tracking-widest uppercase">CROWN</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Equipment</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-blue-400 tracking-widest uppercase">CLARK</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Material Handling</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-red-400 tracking-widest uppercase">NISSAN</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Forklift</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-sky-300 tracking-widest uppercase">RAYMOND</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Electric Trucks</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-blue-300 tracking-widest uppercase">TRELLEBORG</span>
+                    <span class="text-[10px] text-gray-400 mt-1">Industrial Tires</span>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-brand-red transition flex flex-col items-center justify-center">
+                    <span class="font-extrabold text-lg text-emerald-300 tracking-widest uppercase">HAWKER</span>
+                    <span class="text-[10px] text-gray-400 mt-1">GS / Classic Battery</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPANY LEGALITY & BANK DETAILS SECTION -->
+    <section id="data-perusahaan" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 rounded-md bg-brand-lightRed text-brand-red font-bold text-xs tracking-wider uppercase">
+                    Informasi Perusahaan
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Data Legalitas & Perbankan</h2>
+                <p class="text-gray-600 mt-2 text-sm sm:text-base">
+                    Kelengkapan data administratif PT. RVTECH MITRA ABADI sebagai jaminan keabsahan transaksi bisnis Anda.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                
+                <!-- DATA PERUSAHAAN CARD -->
+                <div class="lg:col-span-7 bg-slate-50 p-8 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="flex items-center space-x-3 mb-6 pb-4 border-b border-gray-200">
+                        <div class="w-10 h-10 rounded-lg bg-brand-red text-white flex items-center justify-center text-lg font-bold">
+                            <i class="fa-solid fa-id-card"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">Profil Administrasi Perusahaan</h3>
+                            <p class="text-xs text-gray-500">Keterangan Resmi PT. RVTECH MITRA ABADI</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-2 border-b border-gray-100">
+                            <span class="text-gray-500 font-medium">Nama Perusahaan</span>
+                            <span class="sm:col-span-2 font-bold text-gray-900">PT. RVTECH MITRA ABADI</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-2 border-b border-gray-100">
+                            <span class="text-gray-500 font-medium">No. Akta Pendirian</span>
+                            <span class="sm:col-span-2 font-bold text-gray-900">05</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-2 border-b border-gray-100">
+                            <span class="text-gray-500 font-medium">Jenis Usaha</span>
+                            <span class="sm:col-span-2 font-bold text-gray-900">Supplier Spare Part, Filter-Filter, Oli, Ban, dsb.</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-2 border-b border-gray-100">
+                            <span class="text-gray-500 font-medium">N.P.W.P Perusahaan</span>
+                            <span class="sm:col-span-2 font-bold text-brand-blue tracking-wider">70.835.126.7 - 407.000</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 py-2">
+                            <span class="text-gray-500 font-medium">Alamat NPWP</span>
+                            <span class="sm:col-span-2 font-medium text-gray-800">
+                                Ruko Pesona Mustika Sari 2, Jl. Dewi Sartika No. 2, Bekasi Timur - INDONESIA 17113
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BANK ACCOUNT CARD -->
+                <div class="lg:col-span-5 bg-gradient-to-br from-brand-darkBlue to-brand-blue text-white p-8 rounded-2xl shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs uppercase tracking-widest text-blue-200 font-bold">Rekening Resmi Pembayaran</span>
+                            <i class="fa-solid fa-building-columns text-2xl text-amber-400"></i>
+                        </div>
+
+                        <div class="mb-6">
+                            <div class="text-sm text-gray-300">Bank Transfer</div>
+                            <div class="text-2xl font-black tracking-wide text-white mt-1">BANK MANDIRI</div>
+                        </div>
+
+                        <div class="bg-white/10 p-4 rounded-xl border border-white/20 backdrop-blur-md mb-6">
+                            <div class="text-xs text-gray-300">Nomor Rekening (Account No.)</div>
+                            <div class="flex justify-between items-center mt-1">
+                                <span id="bank-acc" class="text-xl sm:text-2xl font-mono font-bold tracking-wider text-amber-300">156-000-9738198</span>
+                                <button onclick="copyBankAcc()" class="px-3 py-1 bg-white/20 hover:bg-white/30 rounded text-xs font-semibold transition text-white">
+                                    <i class="fa-regular fa-copy mr-1"></i> Salin
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="text-xs text-gray-300">Atas Nama (Account Name)</div>
+                            <div class="text-lg font-bold text-white mt-0.5">PT. RVTECH MITRA ABADI</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-4 border-t border-white/10 text-xs text-blue-200 flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-info text-amber-400"></i>
+                        <span>Mohon lakukan konfirmasi pembayaran ke kontak resmi sales kami.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & LOCATIONS SECTION -->
+    <section id="kontak" class="py-20 bg-slate-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 rounded-md bg-brand-lightBlue text-brand-blue font-bold text-xs tracking-wider uppercase">
+                    Hubungi Kami
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Kantor & Layanan Sales</h2>
+                <p class="text-gray-600 mt-2 text-sm sm:text-base">
+                    Silahkan hubungi kami melalui telepon, email, atau kunjungi alamat kantor operasional kami di Bekasi.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                
+                <!-- OFFICE LOCATION 1 -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-brand-lightRed text-brand-red flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-900">Kantor Operasional 1</h3>
+                            <span class="text-xs text-gray-500">Gardenia Pesona Metropolitan</span>
+                        </div>
+                    </div>
+                    
+                    <p class="text-sm text-gray-600 mb-4 leading-relaxed">
+                        Ruko Gardenia Blok. RA No. 12, Kawasan Pesona Metropolitan, Jl. Siliwangi No. 7 - Bekasi 17116
+                    </p>
+
+                    <div class="space-y-2 text-xs sm:text-sm text-gray-700 font-medium">
+                        <div class="flex items-center"><i class="fa-solid fa-phone w-6 text-brand-red"></i> <span>021-82746350</span></div>
+                        <div class="flex items-center"><i class="fa-solid fa-fax w-6 text-brand-red"></i> <span>021-82746813</span></div>
+                        <div class="flex items-center"><i class="fa-solid fa-envelope w-6 text-brand-red"></i> <span>rutecma@gmail.com</span></div>
+                    </div>
+                </div>
+
+                <!-- OFFICE LOCATION 2 -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-brand-lightBlue text-brand-blue flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-900">Kantor Operasional 2 (Alamat NPWP)</h3>
+                            <span class="text-xs text-gray-500">Pesona Mustika Sari 2</span>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-600 mb-4 leading-relaxed">
+                        Ruko Pesona Mustika Sari 2, Jl. Dewi Sartika No. 2, Bekasi Timur - INDONESIA 17113
+                    </p>
+
+                    <div class="space-y-2 text-xs sm:text-sm text-gray-700 font-medium">
+                        <div class="flex items-center"><i class="fa-solid fa-phone w-6 text-brand-blue"></i> <span>(021) 88397523, 88397524</span></div>
+                        <div class="flex items-center"><i class="fa-solid fa-fax w-6 text-brand-blue"></i> <span>(021) 88397633</span></div>
+                        <div class="flex items-center"><i class="fa-solid fa-envelope w-6 text-brand-blue"></i> <span>rvtecma@gmail.com / rvtech.sls@gmail.com</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- FAST FORM & DIRECT WHATSAPP -->
+            <div class="bg-gradient-to-r from-brand-blue to-brand-darkBlue rounded-2xl text-white p-8 sm:p-12 shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-4">
+                        <h3 class="text-2xl sm:text-3xl font-extrabold">Butuh Penawaran Harga Suku Cadang Cepat?</h3>
+                        <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+                            Kirimkan detail spesifikasi, nomor part, atau foto suku cadang yang Anda butuhkan. Tim sales engineering kami siap memberikan penawaran harga terbaik.
+                        </p>
+                    </div>
+                    <div class="lg:col-span-5 flex flex-col sm:flex-row gap-4 justify-end">
+                        <button onclick="openRfqModal()" class="bg-brand-red hover:bg-brand-darkRed text-white px-6 py-3.5 rounded-xl font-bold text-sm shadow-lg transition flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Form Penawaran (RFQ)</span>
+                        </button>
+                        <a href="https://wa.me/6282188397523?text=Halo%20PT.%20RVTECH%20MITRA%20ABADI,%20saya%20ingin%20menanyakan%20suku%20cadang" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3.5 rounded-xl font-bold text-sm shadow-lg transition flex items-center justify-center space-x-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Chat WhatsApp Direct</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-darkBlue text-gray-400 text-xs sm:text-sm py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-gray-800">
+                
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2 text-white font-extrabold text-base">
+                        <span class="text-brand-red">PT. RVTECH</span> MITRA ABADI
+                    </div>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Reliable Partner on Your Equiparts Solution. Supplier suku cadang terlengkap untuk Forklift, Excavator, Loader, Genset & Dump Truck.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-3 text-xs uppercase tracking-wider">Navigasi Utama</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#beranda" class="hover:text-white transition">Beranda</a></li>
+                        <li><a href="#tentang" class="hover:text-white transition">Tentang Kami</a></li>
+                        <li><a href="#visi-misi" class="hover:text-white transition">Visi & Misi</a></li>
+                        <li><a href="#produk" class="hover:text-white transition">Katalog Produk</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-3 text-xs uppercase tracking-wider">Kategori Produk</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#produk" class="hover:text-white transition">Ban Forklift & Solid Tire</a></li>
+                        <li><a href="#produk" class="hover:text-white transition">Baterai Traksi & Charger</a></li>
+                        <li><a href="#produk" class="hover:text-white transition">Filter Udara & Hidrolik</a></li>
+                        <li><a href="#produk" class="hover:text-white transition">Part Excavator & Loader</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-3 text-xs uppercase tracking-wider">Kontak Cepat</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><i class="fa-solid fa-envelope mr-1 text-brand-red"></i> rvtecma@gmail.com</li>
+                        <li><i class="fa-solid fa-envelope mr-1 text-brand-red"></i> rvtech.sls@gmail.com</li>
+                        <li><i class="fa-solid fa-phone mr-1 text-brand-red"></i> (021) 88397523</li>
+                        <li><i class="fa-solid fa-location-dot mr-1 text-brand-red"></i> Bekasi Timur, Indonesia</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 space-y-2 sm:space-y-0">
+                <div>
+                    &copy; 2026 PT. RVTECH MITRA ABADI. All Rights Reserved.
+                </div>
+                <div>
+                    Designed for Professional Industrial Performance
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- RFQ MODAL POPUP -->
+    <div id="rfqModal" class="fixed inset-0 bg-black/60 z-50 hidden backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden border border-gray-100 transform transition-all">
+            <div class="bg-brand-darkBlue text-white p-6 flex justify-between items-center">
+                <div>
+                    <h3 class="font-bold text-lg">Form Minta Penawaran (RFQ)</h3>
+                    <p class="text-xs text-gray-300">PT. RVTECH MITRA ABADI</p>
+                </div>
+                <button onclick="closeRfqModal()" class="text-gray-300 hover:text-white text-xl focus:outline-none">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form id="rfqForm" onsubmit="handleFormSubmit(event)" class="p-6 space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">Nama Lengkap / Perusahaan *</label>
+                    <input type="text" id="rfq-name" required placeholder="Contoh: PT. Maju Bersama / Bpk. Ahmad" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-red focus:outline-none">
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Nomor WhatsApp *</label>
+                        <input type="tel" id="rfq-phone" required placeholder="0812xxxx" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-red focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Kategori Produk</label>
+                        <select id="rfq-category" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-red focus:outline-none">
+                            <option value="Ban Forklift / Tire">Ban (Tire)</option>
+                            <option value="Baterai Forklift">Baterai & Charger</option>
+                            <option value="Filter & Oli">Filter & Oli</option>
+                            <option value="Sparepart Forklift">Sparepart Forklift</option>
+                            <option value="Sparepart Excavator/Loader">Excavator / Loader</option>
+                            <option value="Sparepart Dump Truck/Genset">Dump Truck / Genset</option>
+                            <option value="Turbocharger">Turbocharger</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">Detail Rincian Part / Pesan *</label>
+                    <textarea id="rfq-message" rows="3" required placeholder="Sebutkan merek, model mesin, atau part number yang dibutuhkan..." class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-red focus:outline-none"></textarea>
+                </div>
+
+                <div class="pt-2 flex justify-end space-x-3">
+                    <button type="button" onclick="closeRfqModal()" class="px-4 py-2.5 rounded-lg border border-gray-300 text-xs font-bold text-gray-700 hover:bg-gray-100">Batal</button>
+                    <button type="submit" class="px-5 py-2.5 rounded-lg bg-brand-red hover:bg-brand-darkRed text-white text-xs font-bold shadow-md transition flex items-center space-x-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i>
+                        <span>Kirim via WhatsApp</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast" class="fixed bottom-6 right-6 bg-slate-900 text-white px-5 py-3 rounded-xl shadow-2xl z-50 hidden border border-gray-700 text-xs font-medium flex items-center space-x-2">
+        <i class="fa-solid fa-circle-check text-emerald-400 text-base"></i>
+        <span id="toast-msg">Nomor Rekening Berhasil Disalin!</span>
+    </div>
+
+    <!-- JAVASCRIPT INTERACTS -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Product Tab Filtering
+        function filterProduct(category) {
+            const items = document.querySelectorAll('.product-item');
+            const buttons = document.querySelectorAll('.tab-btn');
+
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-brand-red', 'text-white', 'active');
+                btn.classList.add('bg-gray-100', 'text-gray-700');
+            });
+
+            event.currentTarget.classList.remove('bg-gray-100', 'text-gray-700');
+            event.currentTarget.classList.add('bg-brand-red', 'text-white', 'active');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // RFQ Modal Controls
+        function openRfqModal() {
+            document.getElementById('rfqModal').classList.remove('hidden');
+        }
+
+        function closeRfqModal() {
+            document.getElementById('rfqModal').classList.add('hidden');
+        }
+
+        function inquireProduct(productName) {
+            document.getElementById('rfq-category').value = productName;
+            document.getElementById('rfq-message').value = `Saya tertarik untuk menanyakan estimasi harga dan ketersediaan stok untuk produk: ${productName}`;
+            openRfqModal();
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('rfq-name').value;
+            const phone = document.getElementById('rfq-phone').value;
+            const category = document.getElementById('rfq-category').value;
+            const message = document.getElementById('rfq-message').value;
+
+            const text = `Halo Sales PT. RVTECH MITRA ABADI,%0A%0ASaya ingin meminta penawaran harga:%0A- *Nama / PT*: ${name}%0A- *Telepon*: ${phone}%0A- *Kategori*: ${category}%0A- *Rincian*: ${message}`;
+            
+            window.open(`https://wa.me/6282188397523?text=${text}`, '_blank');
+            closeRfqModal();
+        }
+
+        // Copy Bank Account Number Functionality
+        function copyBankAcc() {
+            const accNum = "1560009738198";
+            
+            // Clipboard fallback
+            const tempInput = document.createElement("input");
+            tempInput.value = accNum;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+
+            showToast("Nomor Rekening Bank Mandiri Berhasil Disalin!");
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-msg');
+            toastMsg.innerText = msg;
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
